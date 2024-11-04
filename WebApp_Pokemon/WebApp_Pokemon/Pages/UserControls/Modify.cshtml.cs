@@ -9,7 +9,6 @@ namespace WebApp_Pokemon.Pages.MenuPages
     {
         [BindProperty]
         public Pokemon Pokemon { get; set; } = new Pokemon();
-
         private readonly string _connectionString;
 
         public ModifyModel(IConfiguration configuration)
@@ -20,7 +19,11 @@ namespace WebApp_Pokemon.Pages.MenuPages
         public void OnGet()
         {
             string id = Request.Query["id"];
+            LoadPokemon(id);
+        }
 
+        private void LoadPokemon(string id)
+        {
             using (SqlConnection con = new SqlConnection(_connectionString))
             {
                 con.Open();
@@ -44,10 +47,18 @@ namespace WebApp_Pokemon.Pages.MenuPages
 
         public void OnPost()
         {
-            Modify();
+            if (Request.Form.ContainsKey("Save"))
+            {
+                UpdatePokemon();
+                Response.Redirect("/MenuPages/Pokemons");
+            }
+            else if (Request.Form.ContainsKey("Cancel"))
+            {
+                Response.Redirect("/MenuPages/Pokemons");
+            }
         }
 
-        public void Modify()
+        private void UpdatePokemon()
         {
             using (SqlConnection con = new SqlConnection(_connectionString))
             {
@@ -62,8 +73,6 @@ namespace WebApp_Pokemon.Pages.MenuPages
                     cmd.ExecuteNonQuery();
                 }
             }
-
-            Response.Redirect("/MenuPages/Pokemons");
         }
     }
 }

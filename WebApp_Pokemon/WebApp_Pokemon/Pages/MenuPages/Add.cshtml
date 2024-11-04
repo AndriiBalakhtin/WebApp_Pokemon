@@ -3,7 +3,7 @@
 
 <h2 class="text-center my-4">Add New Pokemon</h2>
 
-<form method="post" class="container mt-4">
+<form method="post" class="container mt-4" enctype="multipart/form-data">
     <div class="card shadow-sm p-4">
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>
@@ -15,7 +15,11 @@
         </div>
         <div class="mb-3">
             <label for="level" class="form-label">Level</label>
-            <input type="number" id="level" name="level" class="form-control" placeholder="Enter Pokemon level" min="0" />
+            <input type="number" id="level" name="level" class="form-control" placeholder="Enter Pokemon level" min="0" required />
+        </div>
+        <div class="mb-3">
+            <label for="image" class="form-label">Select Image</label>
+            <input type="file" id="image" name="image" class="form-control" accept="image/*" required />
         </div>
         <div class="text-center">
             <button type="submit" class="btn btn-primary px-4">Add Pokemon</button>

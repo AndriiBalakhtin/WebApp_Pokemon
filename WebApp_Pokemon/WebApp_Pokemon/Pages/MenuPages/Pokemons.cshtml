@@ -10,6 +10,7 @@
             <th>Name</th>
             <th>Type</th>
             <th>Level</th>
+            <th>Image</th>
             <th>Actions</th>
         </tr>
     </thead>
@@ -22,7 +23,11 @@
                 <td>@pokemon.Type</td>
                 <td>@pokemon.Level</td>
                 <td>
+                    <img src="~/images/@pokemon.ImagePath" alt="@pokemon.Name" style="width: 100px; height: auto;" />
+                </td>
+                <td>
                     <a class="btn btn-warning" href="/UserControls/Modify?id=@pokemon.Id">Edit</a>
+                    <button type="submit" class="btn btn-danger" name="Delete" value="@pokemon.Id">Delete</button>
                 </td>
             </tr>
         }

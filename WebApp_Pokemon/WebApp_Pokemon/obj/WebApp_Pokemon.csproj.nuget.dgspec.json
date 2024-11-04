@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sndre\\Downloads\\Web - App Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon.csproj": {}
+    "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sndre\\Downloads\\Web - App Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon.csproj": {
+    "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sndre\\Downloads\\Web - App Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon.csproj",
+        "projectUniqueName": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon.csproj",
         "projectName": "WebApp_Pokemon",
-        "projectPath": "C:\\Users\\sndre\\Downloads\\Web - App Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon.csproj",
+        "projectPath": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon.csproj",
         "packagesPath": "C:\\Users\\sndre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sndre\\Downloads\\Web - App Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\obj\\",
+        "outputPath": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sndre\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -6,24 +6,21 @@
 <form method="post" class="container mt-4">
     <div class="card shadow-sm p-4">
         <input type="hidden" asp-for="Pokemon.Id" />
-
         <div class="mb-3">
             <label asp-for="Pokemon.Name" class="form-label">Name</label>
             <input asp-for="Pokemon.Name" class="form-control" placeholder="Enter Pokemon name" required />
         </div>
-
         <div class="mb-3">
             <label asp-for="Pokemon.Type" class="form-label">Type</label>
             <input asp-for="Pokemon.Type" class="form-control" placeholder="Enter Pokemon type" required />
         </div>
-
         <div class="mb-3">
             <label asp-for="Pokemon.Level" class="form-label">Level</label>
             <input asp-for="Pokemon.Level" type="number" class="form-control" placeholder="Enter Pokemon level" min="0" />
         </div>
-
         <div class="text-center">
-            <button type="submit" class="btn btn-success px-4">Save Changes</button>
+            <button type="submit" class="btn btn-success px-4" name="Save">Save Changes</button>
+            <button type="submit" class="btn btn-danger px-4"  name="Cancel">Cancel Changes</button>
         </div>
     </div>
 </form>

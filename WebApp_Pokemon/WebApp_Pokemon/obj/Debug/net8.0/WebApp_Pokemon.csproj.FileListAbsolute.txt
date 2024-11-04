@@ -36,3 +36,42 @@ C:\Users\sndre\Downloads\Web - App Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Deb
 C:\Users\sndre\Downloads\Web - App Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\sndre\Downloads\Web - App Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\WebApp_Pokemon.csproj.AssemblyReference.cache
 C:\Users\sndre\Downloads\Web - App Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\WebApp_P.E90B2713.Up2Date
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Debug\net8.0\appsettings.Development.json
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Debug\net8.0\appsettings.json
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Debug\net8.0\WebApp_Pokemon.staticwebassets.runtime.json
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Debug\net8.0\WebApp_Pokemon.exe
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Debug\net8.0\WebApp_Pokemon.deps.json
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Debug\net8.0\WebApp_Pokemon.runtimeconfig.json
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Debug\net8.0\WebApp_Pokemon.dll
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Debug\net8.0\WebApp_Pokemon.pdb
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\WebApp_Pokemon.csproj.AssemblyReference.cache
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\WebApp_Pokemon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\WebApp_Pokemon.AssemblyInfoInputs.cache
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\WebApp_Pokemon.AssemblyInfo.cs
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\WebApp_Pokemon.csproj.CoreCompileInputs.cache
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\WebApp_Pokemon.MvcApplicationPartsAssemblyInfo.cache
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\WebApp_Pokemon.RazorAssemblyInfo.cache
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\WebApp_Pokemon.RazorAssemblyInfo.cs
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\WebApp_Pokemon.sourcelink.json
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\staticwebassets.build.json
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\staticwebassets.development.json
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\staticwebassets\msbuild.WebApp_Pokemon.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApp_Pokemon.props
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApp_Pokemon.props
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApp_Pokemon.props
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\scopedcss\bundle\WebApp_Pokemon.styles.css
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\scopedcss\projectbundle\WebApp_Pokemon.bundle.scp.css
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\WebApp_P.E90B2713.Up2Date
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\WebApp_Pokemon.dll
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\refint\WebApp_Pokemon.dll
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\WebApp_Pokemon.pdb
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\WebApp_Pokemon.genruntimeconfig.cache
+C:\Reposotory\WebApp\WebApp_Pokemon\WebApp_Pokemon\WebApp_Pokemon\obj\Debug\net8.0\ref\WebApp_Pokemon.dll
