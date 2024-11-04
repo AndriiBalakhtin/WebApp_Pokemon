@@ -67,7 +67,7 @@ namespace WebApp_Pokemon.Pages.MenuPages
 
             if (ImageFile != null && ImageFile.Length > 0)
             {
-                string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "/Images/default.jpg");
+                string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Images");
                 string uniqueFileName = Guid.NewGuid().ToString() + "_" + ImageFile.FileName;
                 string filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
@@ -76,6 +76,11 @@ namespace WebApp_Pokemon.Pages.MenuPages
                     ImageFile.CopyTo(fileStream);
                 }
                 existingImagePath = uniqueFileName;
+            }
+
+            if (string.IsNullOrEmpty(existingImagePath))
+            {
+                existingImagePath = "Images/default.jpg";
             }
 
             using (SqlConnection con = new SqlConnection(_connectionString))

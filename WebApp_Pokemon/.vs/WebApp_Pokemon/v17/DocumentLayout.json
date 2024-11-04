@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|c:\\reposotory\\webapp\\webapp_pokemon\\webapp_pokemon\\webapp_pokemon\\pages\\usercontrols\\modify.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|solutionrelative:webapp_pokemon\\pages\\usercontrols\\modify.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|c:\\reposotory\\webapp\\webapp_pokemon\\webapp_pokemon\\webapp_pokemon\\pages\\usercontrols\\modify.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|solutionrelative:webapp_pokemon\\pages\\usercontrols\\modify.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +11,20 @@
       "RelativeMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|solutionrelative:webapp_pokemon\\pages\\menupages\\pokemons.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|c:\\reposotory\\webapp\\webapp_pokemon\\webapp_pokemon\\webapp_pokemon\\pages\\menupages\\pokemons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|solutionrelative:webapp_pokemon\\pages\\menupages\\pokemons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|c:\\reposotory\\webapp\\webapp_pokemon\\webapp_pokemon\\webapp_pokemon\\pages\\menupages\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|solutionrelative:webapp_pokemon\\pages\\menupages\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|c:\\reposotory\\webapp\\webapp_pokemon\\webapp_pokemon\\webapp_pokemon\\pages\\menupages\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|solutionrelative:webapp_pokemon\\pages\\menupages\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|c:\\reposotory\\webapp\\webapp_pokemon\\webapp_pokemon\\webapp_pokemon\\pages\\menupages\\pokemons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|solutionrelative:webapp_pokemon\\pages\\menupages\\pokemons.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|c:\\reposotory\\webapp\\webapp_pokemon\\webapp_pokemon\\webapp_pokemon\\pages\\usercontrols\\modify.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|solutionrelative:webapp_pokemon\\pages\\usercontrols\\modify.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74F771E0-4338-4735-8999-118EEEE9ED10}|WebApp_Pokemon\\WebApp_Pokemon.csproj|c:\\reposotory\\webapp\\webapp_pokemon\\webapp_pokemon\\webapp_pokemon\\classes\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,56 +73,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Add.cshtml.cs",
               "DocumentMoniker": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\Pages\\MenuPages\\Add.cshtml.cs",
               "RelativeDocumentMoniker": "WebApp_Pokemon\\Pages\\MenuPages\\Add.cshtml.cs",
               "ToolTip": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\Pages\\MenuPages\\Add.cshtml.cs",
               "RelativeToolTip": "WebApp_Pokemon\\Pages\\MenuPages\\Add.cshtml.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwA0AAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T21:17:38.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Modify.cshtml.cs",
               "DocumentMoniker": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\Pages\\UserControls\\Modify.cshtml.cs",
               "RelativeDocumentMoniker": "WebApp_Pokemon\\Pages\\UserControls\\Modify.cshtml.cs",
               "ToolTip": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\Pages\\UserControls\\Modify.cshtml.cs",
               "RelativeToolTip": "WebApp_Pokemon\\Pages\\UserControls\\Modify.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwE0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T21:23:56.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Modify.cshtml",
               "DocumentMoniker": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\Pages\\UserControls\\Modify.cshtml",
               "RelativeDocumentMoniker": "WebApp_Pokemon\\Pages\\UserControls\\Modify.cshtml",
               "ToolTip": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\Pages\\UserControls\\Modify.cshtml",
               "RelativeToolTip": "WebApp_Pokemon\\Pages\\UserControls\\Modify.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-04T21:23:54.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\Pages\\MenuPages\\Add.cshtml",
               "RelativeDocumentMoniker": "WebApp_Pokemon\\Pages\\MenuPages\\Add.cshtml",
               "ToolTip": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\Pages\\MenuPages\\Add.cshtml",
               "RelativeToolTip": "WebApp_Pokemon\\Pages\\MenuPages\\Add.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-04T21:17:39.601Z",
               "EditorCaption": ""
@@ -149,8 +149,7 @@
               "RelativeToolTip": "WebApp_Pokemon\\Classes\\Pokemon.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T20:38:40.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T20:38:40.695Z"
             },
             {
               "$type": "Document",
@@ -249,26 +248,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Pokemons.cshtml.cs",
               "DocumentMoniker": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\Pages\\MenuPages\\Pokemons.cshtml.cs",
               "RelativeDocumentMoniker": "WebApp_Pokemon\\Pages\\MenuPages\\Pokemons.cshtml.cs",
               "ToolTip": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\Pages\\MenuPages\\Pokemons.cshtml.cs",
               "RelativeToolTip": "WebApp_Pokemon\\Pages\\MenuPages\\Pokemons.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA0wDIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T20:18:18.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Pokemons.cshtml",
               "DocumentMoniker": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\Pages\\MenuPages\\Pokemons.cshtml",
               "RelativeDocumentMoniker": "WebApp_Pokemon\\Pages\\MenuPages\\Pokemons.cshtml",
               "ToolTip": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\Pages\\MenuPages\\Pokemons.cshtml",
               "RelativeToolTip": "WebApp_Pokemon\\Pages\\MenuPages\\Pokemons.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-04T20:18:15.149Z",
               "EditorCaption": ""

@@ -7,7 +7,7 @@ namespace WebApp_Pokemon.Pages.MenuPages
     public class Add : PageModel
     {
         private readonly string _connectionString;
-        private readonly string _imagesFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "Images/default.jpg");
+        private readonly string _imagesFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Images");
 
         public Add(IConfiguration configuration)
         {
@@ -20,12 +20,6 @@ namespace WebApp_Pokemon.Pages.MenuPages
         }
 
         public void OnPost(IFormFile image)
-        {
-            var newPokemon = CreatePokemon(image);
-            Response.Redirect("/MenuPages/Pokemons");
-        }
-
-        public Pokemon CreatePokemon(IFormFile image)
         {
             var newPokemon = new Pokemon
             {
@@ -53,7 +47,7 @@ namespace WebApp_Pokemon.Pages.MenuPages
             }
             else
             {
-                newPokemon.ImagePath = "Images/default.jpg";
+                newPokemon.ImagePath = "default.jpg";
             }
 
             using (SqlConnection con = new SqlConnection(_connectionString))
@@ -72,7 +66,7 @@ namespace WebApp_Pokemon.Pages.MenuPages
                 }
             }
 
-            return newPokemon;
+            Response.Redirect("/MenuPages/Pokemons");
         }
     }
 }

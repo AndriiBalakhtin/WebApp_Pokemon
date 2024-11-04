@@ -11,11 +11,11 @@
             <label class="form-label">Current Image</label>
             @if (!string.IsNullOrEmpty(Model.Pokemon.ImagePath) && Model.Pokemon.ImagePath != "Images/default.jpg")
             {
-                <img src="~/images/@Model.Pokemon.ImagePath" alt="Current Image" style="width: 100px; height: auto;" />
+                <img src="~/Images/@Model.Pokemon.ImagePath" alt="Current Image" style="width: 100px; height: auto;" />
             }
             else
             {
-                <img src="~/images/default.jpg" alt="No Image" style="width: 100px; height: auto;" />
+                <img src="~/Images/default.jpg" alt="No Image" style="width: 100px; height: auto;" />
             }
         </div>
 
