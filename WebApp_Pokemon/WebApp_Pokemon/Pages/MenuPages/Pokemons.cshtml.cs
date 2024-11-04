@@ -50,7 +50,7 @@ namespace WebApp_Pokemon.Pages.MenuPages
                                 Name = reader.GetString(1),
                                 Type = reader.GetString(2),
                                 Level = reader.GetInt32(3),
-                                ImagePath = reader.IsDBNull(4) ? "default.jpg" : reader.GetString(4)
+                                ImagePath = reader.IsDBNull(4) ? "Images/default.jpg" : reader.GetString(4)
                             };
 
                             PokemonList.Add(pokemon);

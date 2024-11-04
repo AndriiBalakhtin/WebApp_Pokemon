@@ -10,7 +10,7 @@ namespace WebApp_Pokemon.Pages.MenuPages
         [BindProperty]
         public Pokemon Pokemon { get; set; } = new Pokemon();
         [BindProperty]
-        public IFormFile ImageFile { get; set; } // Для загрузки изображения
+        public IFormFile ImageFile { get; set; }
         private readonly string _connectionString;
 
         public ModifyModel(IConfiguration configuration)
@@ -41,7 +41,7 @@ namespace WebApp_Pokemon.Pages.MenuPages
                             Pokemon.Name = reader.GetString(1);
                             Pokemon.Type = reader.GetString(2);
                             Pokemon.Level = reader.GetInt32(3);
-                            Pokemon.ImagePath = reader.IsDBNull(4) ? "default.jpg" : reader.GetString(4); // Загрузка существующего изображения
+                            Pokemon.ImagePath = reader.IsDBNull(4) ? "Images/default.jpg" : reader.GetString(4);
                         }
                     }
                 }
@@ -67,7 +67,7 @@ namespace WebApp_Pokemon.Pages.MenuPages
 
             if (ImageFile != null && ImageFile.Length > 0)
             {
-                string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+                string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "/Images/default.jpg");
                 string uniqueFileName = Guid.NewGuid().ToString() + "_" + ImageFile.FileName;
                 string filePath = Path.Combine(uploadsFolder, uniqueFileName);
 

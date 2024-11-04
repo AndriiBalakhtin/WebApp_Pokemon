@@ -9,7 +9,7 @@
 
         <div class="mb-3">
             <label class="form-label">Current Image</label>
-            @if (!string.IsNullOrEmpty(Model.Pokemon.ImagePath) && Model.Pokemon.ImagePath != "default.jpg")
+            @if (!string.IsNullOrEmpty(Model.Pokemon.ImagePath) && Model.Pokemon.ImagePath != "Images/default.jpg")
             {
                 <img src="~/images/@Model.Pokemon.ImagePath" alt="Current Image" style="width: 100px; height: auto;" />
             }
