@@ -1,0 +1,30 @@
+﻿@page
+@model WebApp_Pokemon.Pages.MenuPages.PokemonsModel
+
+<h2>Pokemon List</h2>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Level</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pokemon in Model.PokemonList)
+        {
+            <tr>
+                <td>@pokemon.Id</td>
+                <td>@pokemon.Name</td>
+                <td>@pokemon.Type</td>
+                <td>@pokemon.Level</td>
+                <td>
+                    <a class="btn btn-warning" href="/UserControls/Modify?id=@pokemon.Id">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
