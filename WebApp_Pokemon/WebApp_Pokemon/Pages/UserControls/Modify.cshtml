@@ -3,9 +3,22 @@
 
 <h2 class="text-center my-4">Edit Pokemon</h2>
 
-<form method="post" class="container mt-4">
+<form method="post" enctype="multipart/form-data" class="container mt-4">
     <div class="card shadow-sm p-4">
         <input type="hidden" asp-for="Pokemon.Id" />
+
+        <div class="mb-3">
+            <label class="form-label">Current Image</label>
+            @if (!string.IsNullOrEmpty(Model.Pokemon.ImagePath) && Model.Pokemon.ImagePath != "default.jpg")
+            {
+                <img src="~/images/@Model.Pokemon.ImagePath" alt="Current Image" style="width: 100px; height: auto;" />
+            }
+            else
+            {
+                <img src="~/images/default.jpg" alt="No Image" style="width: 100px; height: auto;" />
+            }
+        </div>
+
         <div class="mb-3">
             <label asp-for="Pokemon.Name" class="form-label">Name</label>
             <input asp-for="Pokemon.Name" class="form-control" placeholder="Enter Pokemon name" required />
@@ -18,9 +31,13 @@
             <label asp-for="Pokemon.Level" class="form-label">Level</label>
             <input asp-for="Pokemon.Level" type="number" class="form-control" placeholder="Enter Pokemon level" min="0" />
         </div>
+        <div class="mb-3">
+            <label for="ImageFile" class="form-label">Upload New Image (optional)</label>
+            <input type="file" name="ImageFile" class="form-control" accept="image/*" />
+        </div>
         <div class="text-center">
             <button type="submit" class="btn btn-success px-4" name="Save">Save Changes</button>
-            <button type="submit" class="btn btn-danger px-4"  name="Cancel">Cancel Changes</button>
+            <button type="submit" class="btn btn-danger px-4" name="Cancel">Cancel Changes</button>
         </div>
     </div>
 </form>

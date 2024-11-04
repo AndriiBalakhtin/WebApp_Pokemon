@@ -9,6 +9,8 @@ namespace WebApp_Pokemon.Pages.MenuPages
     {
         [BindProperty]
         public Pokemon Pokemon { get; set; } = new Pokemon();
+        [BindProperty]
+        public IFormFile ImageFile { get; set; } // Для загрузки изображения
         private readonly string _connectionString;
 
         public ModifyModel(IConfiguration configuration)
@@ -39,6 +41,7 @@ namespace WebApp_Pokemon.Pages.MenuPages
                             Pokemon.Name = reader.GetString(1);
                             Pokemon.Type = reader.GetString(2);
                             Pokemon.Level = reader.GetInt32(3);
+                            Pokemon.ImagePath = reader.IsDBNull(4) ? "default.jpg" : reader.GetString(4); // Загрузка существующего изображения
                         }
                     }
                 }
@@ -60,16 +63,33 @@ namespace WebApp_Pokemon.Pages.MenuPages
 
         private void UpdatePokemon()
         {
+            string existingImagePath = Pokemon.ImagePath;
+
+            if (ImageFile != null && ImageFile.Length > 0)
+            {
+                string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+                string uniqueFileName = Guid.NewGuid().ToString() + "_" + ImageFile.FileName;
+                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    ImageFile.CopyTo(fileStream);
+                }
+                existingImagePath = uniqueFileName;
+            }
+
             using (SqlConnection con = new SqlConnection(_connectionString))
             {
                 con.Open();
-                string query = "UPDATE Pokemons SET Name = @Name, Type = @Type, Level = @Level WHERE Id = @Id";
+                string query = "UPDATE Pokemons SET Name = @Name, Type = @Type, Level = @Level, Image = @Image WHERE Id = @Id";
+
                 using (SqlCommand cmd = new SqlCommand(query, con))
                 {
                     cmd.Parameters.AddWithValue("@Id", Pokemon.Id);
                     cmd.Parameters.AddWithValue("@Name", Pokemon.Name);
                     cmd.Parameters.AddWithValue("@Type", Pokemon.Type);
                     cmd.Parameters.AddWithValue("@Level", Pokemon.Level);
+                    cmd.Parameters.AddWithValue("@Image", existingImagePath);
                     cmd.ExecuteNonQuery();
                 }
             }

@@ -13,6 +13,50 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\wwwroot\\images\\3bdac645-6d10-461c-90af-52a4f660b322_clipart.png",
+      "PackagePath": "staticwebassets\\images\\3bdac645-6d10-461c-90af-52a4f660b322_clipart.png"
+    },
+    {
+      "Id": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\wwwroot\\images\\40e6197c-a0a2-48ce-90e9-70843b3278d6_collab.png",
+      "PackagePath": "staticwebassets\\images\\40e6197c-a0a2-48ce-90e9-70843b3278d6_collab.png"
+    },
+    {
+      "Id": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\wwwroot\\images\\533e2a64-eac6-4db8-a9d0-0bf443f543ec_anniversary.jpg",
+      "PackagePath": "staticwebassets\\images\\533e2a64-eac6-4db8-a9d0-0bf443f543ec_anniversary.jpg"
+    },
+    {
+      "Id": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\wwwroot\\images\\83cbfef2-e425-4088-a9ef-733dc813da02_clipart.png",
+      "PackagePath": "staticwebassets\\images\\83cbfef2-e425-4088-a9ef-733dc813da02_clipart.png"
+    },
+    {
+      "Id": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\wwwroot\\images\\Screenshot_29.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot_29.png"
+    },
+    {
+      "Id": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\wwwroot\\images\\a0a402bb-2a10-48d2-80ee-8db3f67d178e_clipart.png",
+      "PackagePath": "staticwebassets\\images\\a0a402bb-2a10-48d2-80ee-8db3f67d178e_clipart.png"
+    },
+    {
+      "Id": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\wwwroot\\images\\a2f7fe04-6667-43d9-aebd-5a632f480f38_clipart.png",
+      "PackagePath": "staticwebassets\\images\\a2f7fe04-6667-43d9-aebd-5a632f480f38_clipart.png"
+    },
+    {
+      "Id": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\wwwroot\\images\\c0d10d28-ac5d-4bb4-997e-500cd0347228_anniversary.jpg",
+      "PackagePath": "staticwebassets\\images\\c0d10d28-ac5d-4bb4-997e-500cd0347228_anniversary.jpg"
+    },
+    {
+      "Id": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\wwwroot\\images\\cab05e33-c7fb-4633-bec1-60e4978f2434_anniversary.jpg",
+      "PackagePath": "staticwebassets\\images\\cab05e33-c7fb-4633-bec1-60e4978f2434_anniversary.jpg"
+    },
+    {
+      "Id": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\wwwroot\\images\\collab.png",
+      "PackagePath": "staticwebassets\\images\\collab.png"
+    },
+    {
+      "Id": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\wwwroot\\images\\fe8130d4-2ccb-4f72-af92-498d3ea01136_anniversary.jpg",
+      "PackagePath": "staticwebassets\\images\\fe8130d4-2ccb-4f72-af92-498d3ea01136_anniversary.jpg"
+    },
+    {
       "Id": "C:\\Reposotory\\WebApp\\WebApp_Pokemon\\WebApp_Pokemon\\WebApp_Pokemon\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

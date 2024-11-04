@@ -1,6 +1,0 @@
-﻿CREATE TABLE Pokemons (
-    Id INT PRIMARY KEY IDENTITY(1,1),
-    Name NVARCHAR(100) NOT NULL,
-    Type NVARCHAR(50) NOT NULL,
-    Level INT NOT NULL
-);

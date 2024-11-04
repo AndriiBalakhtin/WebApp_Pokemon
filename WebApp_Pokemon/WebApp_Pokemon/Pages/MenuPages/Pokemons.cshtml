@@ -27,7 +27,10 @@
                 </td>
                 <td>
                     <a class="btn btn-warning" href="/UserControls/Modify?id=@pokemon.Id">Edit</a>
-                    <button type="submit" class="btn btn-danger" name="Delete" value="@pokemon.Id">Delete</button>
+                    <form method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@pokemon.Id" />
+                        <button type="submit" class="btn btn-danger" name="Delete">Delete</button>
+                    </form>
                 </td>
             </tr>
         }
